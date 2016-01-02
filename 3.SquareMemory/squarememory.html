@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Memory!</title>
+</head>
+
+<body>
+    <div id="header">SEQUENCE MEMORY</div>
+    <div id="level">
+        <p style="display: inline;">LEVEL </p>
+        <p id="levelnow"></p>
+    </div>
+    <div id="container">
+        <div>
+            <div class="box" id="box1" onclick="answer(event)"></div>
+            <div class="box" id="box2" onclick="answer(event)"></div>
+        </div>
+        <div>
+            <div class="box" id="box3" onclick="answer(event)"></div>
+            <div class="box" id="box4" onclick="answer(event)"></div>
+        </div>
+    </div>
+    <div id="start">
+        <input id="startbtn" type="button" value="START" onclick="start()">
+        <p id="yourturn">YOUR TURN</p>
+    </div>
+</body>
+
+</html>

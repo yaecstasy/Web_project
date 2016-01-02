@@ -1,0 +1,35 @@
+body{
+	background-color: #000029;
+	font-family: 'Poiret One', cursive;
+}
+#header{
+	font-size:30px;
+	color:#FF33CC;
+	padding-left:50px;
+	padding-top:20px;
+}
+#gameover{
+	display:none;
+}
+#game{
+	text-align: center;
+	width:450px;
+	height:520px;
+	margin:auto;
+	padding-top:30px;
+}
+#canvas{
+	border:2px solid #FF33CC;
+}
+
+#level{
+	color:#FF33CC;
+	float:left;
+	font-size:25px;
+	padding-right: 20px;
+}
+#levelnow{
+	color:#FF33CC;
+	font-size:25px;
+	float:left;
+}

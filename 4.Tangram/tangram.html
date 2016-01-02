@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta:renderer></meta:renderer>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta:author></meta:author>
+	<meta name="keywords" content="Keyword 1,Keyword 2">
+	<meta name="description" content="description">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+	<title>Tangram</title>
+</head>
+<body>
+	<div id="container">
+		<div id="A1" class="drag tribigup"></div>
+		<div id="A2" class="drag tribigdown" ></div>
+		<div id="A3" class="drag triupsmall"></div>
+		<div id="A4" class="drag righttri"></div>
+		<div id="A5" class="drag square"></div>
+	</div>
+	<div id="canvas">
+	    <h1>TANGRAM</h1>	
+		<div >
+			<div id="Q1" class="tribigup" style="position:relative; left:400px ;border-color: transparent transparent lightgrey transparent;z-index:-10;"></div>
+		</div>
+		<div>
+			<div id="Q2" class="righttri inline" style="position:relative;top:0px;left:250px; border-color: transparent transparent transparent lightgrey;z-index:-10;"></div>
+			<div id="Q3" class="square inline" style="position:relative;top:0px;left:300px; background-color:lightgrey;z-index:-10;"></div>
+		</div>
+		<div>
+			<div id="Q4" class="tribigdown" style="position:relative;top:0px; left:300px;border-color: lightgrey transparent transparent transparent;z-index:-10;" ></div>
+		</div>
+		<div>
+			<div id="Q5" class="triupsmall" style="position:relative;top:0px; left:340px;border-color: transparent transparent lightgrey transparent;z-index:-10;"></div>
+		</div>
+		<div id="button" >
+			<input type="button" value="RESET" onclick="location.href='index.html'" style="position:relative;left:375px">
+		</div>
+	</div>
+
+
+</body>
+</html>

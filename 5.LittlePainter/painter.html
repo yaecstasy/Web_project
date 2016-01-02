@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="painter.js"></script>
+    <title>Little Painter</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="title">Little Painter</div>
+        <div id="select">
+            <div id="shape" class="list">Shape
+                <select name="shape" id="shapeselect">
+                    <option value="square">Square</option>
+                    <option value="circle">Circle</option>
+                    <option value="uptriangle">Up triangle</option>
+                    <option value="downtriangle">Down triangle</option>
+                </select>
+            </div>
+            <div class="list">Color
+                <input type="color" name="favcolor" class="inputtext" id="color">
+            </div>
+            <div class="list">Size
+                <input type="text" class="inputtext" id="size">
+            </div>
+            <div id="erase" class="list">
+                <input type="button" value="Eraser" class="button">
+            </div>
+            <div class="list">
+                <input type="button" value="Erase All" class="button" style="background-color:#D11919" id="eraseall">
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <canvas id="canvas" width="895" height="500"></canvas>
+    </div>
+</body>
+
+</html>

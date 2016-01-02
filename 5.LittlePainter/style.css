@@ -1,0 +1,62 @@
+body {
+    font-size: 0px;
+    background-color: #000029;
+    width: 100%;
+}
+
+#header {
+    width: 870px;
+    height: 120px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    color: #0066FF;
+    font-size: 45px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+}
+
+#select {
+    height: 30px;
+    vertical-align: bottom;
+    position: relative;
+    top: 15px;
+    left: 280px;
+}
+
+.list {
+    display: inline-block;
+    font-size: 20px;
+    color: #0066FF;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#shapeselect {
+    width: 70px;
+    height: 20px;
+}
+
+.inputtext {
+    width: 50px;
+    height: 18px;
+}
+
+.button {
+    color: white;
+    background-color: #33CC33;
+    border: none;
+    height: 25px;
+}
+
+#container {
+    text-align: center;
+}
+
+#canvas {
+    background-color: white;
+    cursor: none;
+}
